@@ -1,0 +1,83 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0c0d1c;
+}
+
+.general {
+    background: #112D4E;
+    border: 2px dotted #94ccdb;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#operacion {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: right;
+    color: white;
+    background: #DDE6ED;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.ctn-logos {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.logo-operacion, .num {
+    border-radius: 5px;
+    width: 22%;
+    height: 50px;
+    border: none;
+    margin: 5px 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.logo-operacion {
+    background: #3F72AF;
+    color: white;
+}
+
+.num {
+    background: #DBE2EF;
+}
+
+@media screen and (max-width: 768px){
+    .general {
+        width: 90vw;
+        padding: 10px;
+    }
+
+    .logo-operacion, .num {
+        margin: 2px 0;
+    }
+
+    #operacion {
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .general {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .general {
+        width: 45%;
+    }
+}
